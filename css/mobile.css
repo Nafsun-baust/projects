@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+#navbar{
+    flex-direction: column;
+    font-size: 1rem;
+
+}
+#navbody{
+    height: 250px;
+}
+#navbody h1{
+    font-size: 1.4rem;
+}
+#navbody::before{
+    height: 436px;
+}
+#navbody p{
+    font-size: .9rem;
+}
+.service{
+    flex-direction: column;
+}
+.first_heading{
+    padding-top: 20px;
+}
+.client{
+    flex-wrap: wrap;
+}
+.clientall{
+    flex-direction: column;
+    
+}
+.client::before{
+    height: 800px;
+}
+#contactform{
+    width: 70%;
+}
